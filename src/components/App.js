@@ -13,6 +13,7 @@ const App = () => {
     if(!value){
       inputRef.current.focus();
     }
+    
     setList([]);
     for (let i = 1; i < Number(value) + 1; i++) {
       setList((prev) => [...prev, i]);
